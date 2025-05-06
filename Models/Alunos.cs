@@ -1,8 +1,9 @@
 // Dentro de Models 
-
 using System;
-using 
-
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Web;
 
 namespace MovieMVC.Models{
 
@@ -21,9 +22,7 @@ namespace MovieMVC.Models{
             [Display(nameof  = "Realizador")]
             public int Id Realizador{get; set;}
 
-    // Ator principal, Atriz principal, Classificação.~
-
-
+    // Ator principal, Atriz principal, Classificação.
 
     public double Classificação      
 
